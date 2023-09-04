@@ -1,4 +1,16 @@
 # スケジュール管理・共有ソフト
+## ブランチ名規則
+**英語しか使えないので注意**
+### 新機能開発
+feature/本名以外のペンネーム/新機能について10～20文字程度で概要  
+ex) feature/jikantoki/save-data
+
+### バグ修正、コード改善
+hotfix/本名以外のペンネーム/修正内容について10～20文字程度で概要  
+ex) hotfix/jikantoki/fix-directory-path
+
+**ブランチ名は機能や修正内容事に分けること**
+
 ## 命名規則
 サンプル名→my name is jiro
 | 名称 | 規則 |
@@ -6,6 +18,7 @@
 | クラス名 | MyNameIsJiro |
 | 変数名・データベースのプロパティ名 | myNameIsJiro |
 | ディレクトリパス | MY-NAME-IS-JIRO |
+| ブランチ名 | my-name-is-jiro |
 | 定数名・大文字小文字に制限がかかる場所 | MY_NAME_IS_JIRO |
 
 ## コーディング規則
@@ -19,7 +32,6 @@
 | Js | const | 定数 |
 
 ### 命令文について
-#### 代入
 ```
 let abc = 'hello' //イコール前後にスペース
 if (abc === 'hello') {
