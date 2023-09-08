@@ -29,6 +29,11 @@ ex) hotfix/jikantoki/fix-directory-path
 
 ## コーディング規則
 
+### 言語規則
+PHPでもJavascriptでも開発可能なものは原則Javascriptで
+但し外部からソースコードを見られてはいけない部分やDBを触るAPI部分はPHPで作る
+APIは原則GETで入力してJSONを出力
+
 ### 変数の扱い
 
 | 言語 | 型 | 使い方 |
