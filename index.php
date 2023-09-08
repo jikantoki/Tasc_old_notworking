@@ -9,8 +9,50 @@
 </head>
 
 <body>
-  <h1>スケジュール管理アプリを製作中…</h1>
-  now
+  <div id="app">
+    <contents></contents>
+  </div>
 </body>
+
+<script type="module">
+  //import Header from '/src/Header.vue'
+
+  export default {
+    components: {
+      //Header
+    }
+  }
+
+  Vue.createApp({
+    data() {
+      return {
+        meta: {
+          title: '<?php echo SITE_NAME; ?>',
+          pageTitle: 'トップ'
+        }
+      }
+    },
+    watch: {
+
+    },
+    created() {
+      //DOM生成前に処理が走る
+      if (this.meta.pageTitle) {
+        document.title = this.meta.title + ' | ' + this.meta.pageTitle
+      }
+      console.log(this)
+      this.hello()
+    },
+    mounted() {
+      //DOM生成後に処理が走る
+    },
+    methods: {
+      //関数
+      hello() {
+        console.log('hello')
+      }
+    }
+  }).mount('#app')
+</script>
 
 </html>
