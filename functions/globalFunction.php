@@ -47,6 +47,7 @@ function ifWinFixFileName($path)
     echo 'a';
     return mb_str_replace('/', '\\', $path);
   } else {
+    echo 'b';
     return $path;
   }
 }
