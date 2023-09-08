@@ -12,14 +12,15 @@
   <div id="app">
     <contents></contents>
     <main-header></main-header>
+    {{ meta.title }}
   </div>
 </body>
 
 <script type="module">
-  export default {
+  export default{
     name: 'Top',
     components: {
-      //MainHeader: () => import('/src/MainHeader.vue')
+      'MainHeader': httpVueLoader('/src/MainHeader')
     }
   }
 
@@ -40,7 +41,6 @@
       if (this.meta.pageTitle) {
         document.title = this.meta.title + ' | ' + this.meta.pageTitle
       }
-      console.log(this)
       this.hello()
     },
     mounted() {
