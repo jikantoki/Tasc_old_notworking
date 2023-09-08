@@ -5,7 +5,7 @@
     <?php
     include $_SERVER['DOCUMENT_ROOT'] . '/meta/metaHeadStart.php';
     ?>
-    <title>Tasc</title>
+    <title><?php echo SITE_NAME; ?></title>
 </head>
 
 <body>
