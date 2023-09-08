@@ -11,15 +11,15 @@
 <body>
   <div id="app">
     <contents></contents>
+    <main-header></main-header>
   </div>
 </body>
 
 <script type="module">
-  //import Header from '/src/Header.vue'
-
   export default {
+    name: 'Top',
     components: {
-      //Header
+      //MainHeader: () => import('/src/MainHeader.vue')
     }
   }
 
