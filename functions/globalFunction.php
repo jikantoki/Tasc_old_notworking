@@ -44,10 +44,8 @@ function ifWinFixFileName($path)
 {
   if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
     //Windows
-    echo 'a';
     return mb_str_replace('/', '\\', $path);
   } else {
-    echo 'b';
     return $path;
   }
 }
