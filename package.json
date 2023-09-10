@@ -9,11 +9,11 @@
   "author": "jikantoki <info@enoki.xyz> (https://github.com/jikantoki)",
   "license": "UNLICENSED",
   "dependencies": {
+    "express": "^4.18.2",
     "jquery": "^3.7.1",
     "vue": "^3.3.4",
     "yarn": "^1.22.19"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/jikantoki/Tasc.git"
