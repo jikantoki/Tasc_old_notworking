@@ -1,0 +1,26 @@
+{
+  "name": "tasc",
+  "version": "0.0.1",
+  "description": "簡単にタスクを管理",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jikantoki <info@enoki.xyz> (https://github.com/jikantoki)",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "vue": "^3.3.4",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jikantoki/Tasc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jikantoki/tasc/issues",
+    "email": "info@enoki.xyz"
+  },
+  "homepage": "https://tasc.enoki.xyz"
+}
