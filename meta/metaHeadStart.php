@@ -31,6 +31,7 @@ if (!isset($dontMakeMeta)) {
   <!-- CDN -->
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://unpkg.com/http-vue-loader"></script>
 
 <?php
 }
