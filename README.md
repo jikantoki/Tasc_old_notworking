@@ -1,3 +1,6 @@
+# This project is moved
+https://github.com/jikantoki/tasc
+
 # スケジュール管理・共有ソフト
 
 ## ブランチ名規則
