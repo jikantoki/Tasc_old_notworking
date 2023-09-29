@@ -7,5 +7,27 @@
     "source.fixAll.eslint": true
   },
   "editor.formatOnSave": true,
-  "extensions.ignoreRecommendations": false
+  "extensions.ignoreRecommendations": false,
+  "vetur.format.defaultFormatter.html": "prettier",
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "none",
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "singleQuote": true,
+      "semi": false
+    },
+    "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline"
+    },
+    "prettyhtml": {
+      "printWidth": 80,
+      "singleQuote": true,
+      "semi": false,
+      "wrapAttributes": false,
+      "sortAttributes": false
+    }
+  }
 }
